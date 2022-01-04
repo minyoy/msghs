@@ -1,0 +1,80 @@
+
+.App {
+  text-align: center;
+}
+
+.box{
+  position: relative;
+  width: 85%;
+  height: 520px;
+  left: 4px;
+  top: 6px;
+  background: #ffffff;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px 10px 25px 25px;
+}
+
+.today{
+  position: relative;
+  font-family: Noto serif KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000000;
+  margin: 30px 15px 0px
+}
+
+.flex-container1, .flex-container2 {
+  justify-content: center;
+  text-align: center;
+}
+
+.week {
+  position: relative;
+  background: #FFAEAE;
+  font-family: Noto sans-serif;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 1%;
+	width: 12%;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  margin: 10px 8px 0px;
+  display: inline-block;
+}
+
+.div{
+  text-align: center;
+}
+
+.fork{
+  width: 50px;
+  height: 50px;
+  margin: 30px 10px 0px 0px;
+  display: inline-block;
+}
+
+.content {
+  position: relative;
+  font-family: Noto Serif KR;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 43px;
+  height: 120px;
+  color: #000000;
+  margin: 20px
+}
+
+.logo {
+  width: 170px;
+  height: 120px;
+}
+
+textarea {
+	resize: none;
+  height: 270px;
+  width: 200px;
+  font-size: medium;
+}
