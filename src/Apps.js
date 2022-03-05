@@ -11,7 +11,7 @@ function App() {
   
     const MonClick = async() => {
     try{
-      const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=1&date=4&allergy=hidden');
+      const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=3&date=7&allergy=hidden');
       setData(response.data);
       console.log(response.data);
       console.log(response.data.menu);
