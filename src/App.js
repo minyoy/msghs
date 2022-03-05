@@ -11,7 +11,7 @@ function App() {
   
     const MonClick = async() => {
     try{
-      const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=1&date=3&allergy=hidden');
+      const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=3&date=7&allergy=hidden');
       setData(response.data);
       var menulist = response.data.menu[0];
       var breakfast = menulist['breakfast']
@@ -25,7 +25,7 @@ function App() {
 
     const TueClick = async() => {
       try{
-        const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=1&date=4&allergy=hidden');
+        const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=3&date=8&allergy=hidden');
         setData(response.data);
         var menulist = response.data.menu[0];
         var breakfast = menulist['breakfast']
@@ -39,7 +39,7 @@ function App() {
 
     const WedClick = async() => {
       try{
-        const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=1&date=5&allergy=hidden');
+        const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=3&date=9&allergy=hidden');
         setData(response.data);
         var menulist = response.data.menu[0];
         var breakfast = menulist['breakfast']
@@ -53,7 +53,7 @@ function App() {
 
     const ThuClick = async() => {
       try{
-        const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=1&date=6&allergy=hidden');
+        const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=3&date=10&allergy=hidden');
         setData(response.data);
         var menulist = response.data.menu[0];
         var breakfast = menulist['breakfast']
@@ -67,7 +67,7 @@ function App() {
 
     const FriClick = async() => {
       try{
-        const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=1&date=7&allergy=hidden');
+        const response = await axios.get('https://schoolmenukr.ml/api/high/Q100000247?month=3&date=11&allergy=hidden');
         setData(response.data);
         var menulist = response.data.menu[0];
         var breakfast = menulist['breakfast']
