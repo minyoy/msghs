@@ -37,13 +37,14 @@
   font-family: Arial;
   font-size: 1rem;
   border-color: #FFAEAE;
-  color: #000000;
+  color: #333333;
   font-weight: bold;
   padding: 1%;
 	width: 15%;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
   margin: 5px 6px 0px;
   display: inline-block;
+  border-width: 3px
 }
 
 .week.active {
