@@ -85,11 +85,11 @@ function App() {
         <img className='logo' src={logo} alt="logo"></img>
       </div>
       <div id = 'flex-container1'>
-        <button onClick={MonClick} className='week'>Mon</button>
-        <button onClick={TueClick} className='week'>Tue</button>
-        <button onClick={WedClick} className='week'>Wed</button>
-        <button onClick={ThuClick} className='week'>Thu</button>
-        <button onClick={FriClick} className='week'>Fri</button>
+        <button onClick={MonClick} className='week'>월</button>
+        <button onClick={TueClick} className='week'>화</button>
+        <button onClick={WedClick} className='week'>수</button>
+        <button onClick={ThuClick} className='week'>목</button>
+        <button onClick={FriClick} className='week'>금</button>
       </div>
       <div className='flex-container2'>
         <div className='box'>

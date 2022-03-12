@@ -33,15 +33,15 @@
 
 .week {
   position: relative;
-  background: #FFAEAE;
+  background-color: #f199bc;
+  color: #d4dfe6;
   font-family: Arial;
   font-size: 1rem;
-  border-color: black;
   color: #FFFFFF;
   padding: 1%;
 	width: 15%;
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-  margin: 10px 6px 0px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  margin: 5px 6px 0px;
   display: inline-block;
 }
 
