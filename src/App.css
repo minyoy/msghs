@@ -33,10 +33,10 @@
 
 .week {
   position: relative;
-  background-color: #f199bc;
-  color: #d4dfe6;
+  background: #FFFFFF;
   font-family: Arial;
   font-size: 1rem;
+  border-color: #FFAEAE;
   color: #FFFFFF;
   padding: 1%;
 	width: 15%;
