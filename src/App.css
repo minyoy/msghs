@@ -17,7 +17,7 @@
 
 .today{
   position: relative;
-  font-family: "Last Ninja", Impact, fantasy;
+  font-family: Arial;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
@@ -34,8 +34,8 @@
 .week {
   position: relative;
   background: #FFAEAE;
-  font-family: "Last Ninja", fantasy;
-  font-size: 18px;
+  font-family: Arial;
+  font-size: 13px;
   border-color: black;
   color: #FFFFFF;
   padding: 1%;
@@ -48,7 +48,7 @@
 .week.active {
   position: relative;
   background: #ff3a3a;
-  font-family: "Last Ninja", Impact, fantasy;
+  font-family: Arial;
   font-size: 15px;
   border-color: black;
   color: #FFFFFF;
@@ -72,7 +72,7 @@
 
 .content {
   position: relative;
-  font-family: "Last Ninja", Impact, fantasy;
+  font-family: Arial;
   font-style: normal;
   font-weight: 200;
   font-size: 25px;
