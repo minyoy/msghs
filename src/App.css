@@ -7,17 +7,17 @@
   position: relative;
   width: 85%;
   height: 520px;
-  left: 4px;
+  left: 8%;
   top: 6px;
   background: #ffffff;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  margin: 20px 10px 25px 25px;
+  margin: 20px 10px 0px 0px;
 }
 
 .today{
   position: relative;
-  font-family: Noto serif KR;
+  font-family: "Last Ninja", Impact, fantasy;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
@@ -34,13 +34,28 @@
 .week {
   position: relative;
   background: #FFAEAE;
-  font-family: Noto sans-serif;
+  font-family: "Last Ninja", fantasy;
+  font-size: 18px;
+  border-color: black;
+  color: #FFFFFF;
+  padding: 1%;
+	width: 15%;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  margin: 10px 6px 0px;
+  display: inline-block;
+}
+
+.week.active {
+  position: relative;
+  background: #ff3a3a;
+  font-family: "Last Ninja", Impact, fantasy;
   font-size: 15px;
+  border-color: black;
   color: #FFFFFF;
   padding: 1%;
 	width: 12%;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-  margin: 10px 8px 0px;
+  margin: 5px 4px 0px;
   display: inline-block;
 }
 
@@ -57,7 +72,7 @@
 
 .content {
   position: relative;
-  font-family: Noto Serif KR;
+  font-family: "Last Ninja", Impact, fantasy;
   font-style: normal;
   font-weight: 200;
   font-size: 25px;
@@ -70,6 +85,7 @@
 .logo {
   width: 170px;
   height: 120px;
+  margin: 10px;
 }
 
 textarea {
