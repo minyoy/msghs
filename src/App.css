@@ -23,7 +23,7 @@
   font-size: 35px;
   line-height: 43px;
   color: #000000;
-  margin: 30px 15px 0px
+  margin: 15px 15px 0px
 }
 
 .flex-container1, .flex-container2 {
@@ -38,6 +38,7 @@
   font-size: 1rem;
   border-color: #FFAEAE;
   color: #000000;
+  font-weight: bold;
   padding: 1%;
 	width: 15%;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
